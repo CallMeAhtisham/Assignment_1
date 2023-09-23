@@ -14,3 +14,112 @@ and less than or equal to
 
 • Test whether an item is not in a array */
 
+import car from "./23"
+
+console.log("Is car == 'Subaru'? I predict True.")
+
+console.log(car == "Subaru")
+
+console.log("Is car == 'Nissan'? I predict False.")
+
+console.log(car == "Nissan")
+
+console.log("Is car != 'Subaru'? I predict False.")
+
+console.log(car != "Subaru")
+
+console.log("Is car != 'Nissan'? I predict True.")
+
+console.log(car != "Nissan")
+
+console.log("Is car.toLowerCase == 'nissan'? I predict Fasle.")
+
+console.log(car.toLowerCase() == "nissan")
+
+console.log("Is car.toLowerCase == 'subaru'? I predict True.")
+
+console.log(car.toLowerCase() == 'subaru')
+
+let number = 2
+
+console.log("Is number == 2? I predict True.")
+
+console.log(number == 2)
+
+console.log("Is number == 3? I predict False.")
+
+console.log(number == 3)
+
+console.log("Is number != 3? I predict True.")
+
+console.log(number != 3)
+
+console.log("Is number != 2? I predict False.")
+
+console.log(number != 2)
+
+console.log("Is number > 2? I predict False.")
+
+console.log(number > 2)
+
+console.log("Is number > 1? I predict True.")
+
+console.log(number > 1)
+
+console.log("Is number < 2? I predict False.")
+
+console.log(number < 2)
+
+console.log("Is number < 3? I predict True.")
+
+console.log(number < 3)
+
+console.log("Is number >= 2? I predict True.")
+
+console.log(number >= 2)
+
+console.log("Is number >= 3? I predict False.")
+
+console.log(number >= 3)
+
+console.log("Is number <= 3? I predict True.")
+
+console.log(number <= 3)
+
+console.log("Is number <= 1? I predict False.")
+
+console.log(number <= 1)
+
+console.log("Is number < 2 && number < 3? I predict False.")
+
+console.log(number < 2 && number < 3)
+
+console.log("Is number < 1 && number > 3? I predict True.")
+
+console.log(number > 1 && number < 3)
+
+console.log("Is number <= 2 || number > 3? I predict True.")
+
+console.log(number <= 2 || number > 3)
+
+console.log("Is number < 1 || number > 4? I predict False.")
+
+console.log(number < 1 || number > 4)
+
+let array = [1, 2, 3, 4]
+
+console.log("Is 3 present in the array? I predict True.")
+
+console.log(array.includes(3))
+
+console.log("Is 5 present in the array? I predict False.")
+
+console.log(array.includes(5))
+
+console.log("Is 2 not present in the array? I predict False.")
+
+console.log(!array.includes(2))
+
+console.log("Is 0 not present in the array? I predict True.")
+
+console.log(!array.includes(0))

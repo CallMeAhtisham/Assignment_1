@@ -52,3 +52,5 @@ console.log(car !== "Subaru")
 console.log("Is car == 'Nissan'? I predict False.")
 
 console.log(car == "Nissan")
+
+export default car
