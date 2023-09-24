@@ -12,7 +12,7 @@ type Album = {
      tracks?: number
 }
 
-function make_album(artist_name: string, album_title: string, tracks?: number): Album {
+function make_album(artist_name: string, album_title: string, tracks?: number) {
 let album: Album = {
      artist_name,
      album_title

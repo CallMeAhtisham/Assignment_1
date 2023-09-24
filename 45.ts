@@ -10,7 +10,7 @@ interface Car {
      [x: string]: any
 }
 
-let car = (manufacturer: string, model_name: string, ...options: [string, any][]): Car => {
+let car = (manufacturer: string, model_name: string, ...options: [string, any][]) => {
      let car: Car = {
          manufacturer,
          model_name
